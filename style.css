@@ -1,0 +1,63 @@
+body {
+  background-image: url("img/background.jpg");
+  background-size: cover; }
+  body ::-webkit-scrollbar {
+    display: none; }
+  body main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; }
+    body main header {
+      padding: 0.5em;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 5vh;
+      color: white;
+      text-align: center; }
+    body main #todo {
+      background-color: rgba(0, 0, 230, 0.9); }
+    body main #ready {
+      background-color: rgba(11, 66, 0, 0.9); }
+    body main article.g {
+      height: 30vh;
+      background-color: rgba(255, 255, 255, 0.6);
+      text-align: center;
+      overflow-y: auto;
+      color: white; }
+      body main article.g section.ready {
+        background-color: rgba(11, 66, 0, 0.7);
+        color: white; }
+      body main article.g section.task {
+        background-color: rgba(0, 0, 230, 0.7); }
+      body main article.g section {
+        height: 6vh;
+        font-size: 2.2vh;
+        line-height: 6vh;
+        margin: 0.6em;
+        padding-left: 1em;
+        padding-right: 1em;
+        display: flex;
+        justify-content: space-between; }
+        body main article.g section header.b {
+          padding: 0;
+          height: 5vh;
+          font-family: "Times New Roman", Times, serif;
+          font-size: 1em; }
+        body main article.g section article.b {
+          height: 5vh; }
+        body main article.g section footer.b {
+          height: 5vh; }
+    body main nav {
+      background-color: white;
+      padding: 2em;
+      display: flex;
+      justify-content: space-between;
+      margin: 1em; }
+      body main nav h5 {
+        width: 20%; }
+      body main nav #zad {
+        text-align: center;
+        width: 60%; }
+      body main nav #dodaj {
+        width: 20%; }
+
+/*# sourceMappingURL=style.css.map */
