@@ -24,6 +24,7 @@ body{
         }
         article.g{
             height:30vh;
+
             background-color:rgba(255,255,255,0.6);
             text-align:center;
             overflow-y:auto;
@@ -73,13 +74,19 @@ body{
             h5{
                 width:20%;
             }
+           form{
+              
             #zad{
              text-align:center;
-             width:60%;
+             height:7vh;
+             width:40em;
+             
             }
             #dodaj{
-                width:20%;
-            }
+                height:8vh;
+                width:15em;
+        }
+        }
         }
     }
 }

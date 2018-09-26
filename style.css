@@ -54,10 +54,12 @@ body {
       margin: 1em; }
       body main nav h5 {
         width: 20%; }
-      body main nav #zad {
+      body main nav form #zad {
         text-align: center;
-        width: 60%; }
-      body main nav #dodaj {
-        width: 20%; }
+        height: 7vh;
+        width: 40em; }
+      body main nav form #dodaj {
+        height: 8vh;
+        width: 15em; }
 
 /*# sourceMappingURL=style.css.map */
