@@ -7,7 +7,7 @@ let html='';
         html+='<section class="task">';
         const y=i
         i++
-        html+='<header class="b" id="lp"><i class="demo-icon icon-up-big" onclick="up('+y+')"></i><i class="demo-icon icon-down-big" onclick="down('+y+')"></i></header>';
+        html+='<header class="b" id="lp">'+i+'<i class="demo-icon icon-up-big" onclick="up('+y+')"></i><i class="demo-icon icon-down-big" onclick="down('+y+')"></i></header>';
         i--
         html+='<article class="b" >'+task[i]+'</article>'
         html+='	<footer class="b"><i class="demo-icon icon-check" onclick="fready('+i+')"></i><i class="demo-icon icon-cancel-circled-outline" onclick="fdel('+i+')"></i> </footer>';
@@ -31,6 +31,8 @@ function readytasks(){
 document.getElementById('gotowe').innerHTML=html;
 }
 readytasks()
+
+
 
 const dodaj = document.getElementById('dodaj');
 dodaj.addEventListener('click',function(){
